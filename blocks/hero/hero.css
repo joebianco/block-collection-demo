@@ -31,8 +31,22 @@
   height: 100%;
 }
 
+/* JOES STUFF */
+
+.hero p {
+  color: var(--joes-hero-text-color);
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  /* default for light background 
+  color: var(--background-color);
+  */
+}
+
 @media (width >= 900px) {
   .hero {
     padding: 40px 32px;
   }
 }
+
+
