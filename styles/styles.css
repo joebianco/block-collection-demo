@@ -68,11 +68,11 @@
   --joes-button-secondary-border-color: grey;
   --joes-button-secondary-text-color: grey;
 
-  --joes-section-highlight-color: #f7ce62;
+  --joes-section-highlight-color: lightgrey;
   --joes-hero-text-color: white;
 
   --background-color: white;
-  --light-color: #f8f8f8;
+  --light-color: lightgrey;
   --dark-color: #505050;
   --text-color: #131313;
   --link-color: #3b63fb;
