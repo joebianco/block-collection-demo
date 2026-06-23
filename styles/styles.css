@@ -13,7 +13,7 @@
 :root {
 
 
-  /* Panera colors, fonts, and nav height (light-color = table stripe)
+  /* Panera colors, fonts, and nav height (light-color = table stripe) */
 
   --joes-button-primary-background-color: #e2eb76;
   --joes-button-primary-color: #274225;
@@ -55,10 +55,8 @@
 
 }
 
-*/
 
-
-  /* McDonalds colors, fonts, and nav height (light-color = table stripe) */
+  /* McDonalds colors, fonts, and nav height (light-color = table stripe)
 
   --joes-button-primary-background-color: #f5bf44;
   --joes-button-primary-color: black;
@@ -99,7 +97,7 @@
 
 }
 
-
+ */
 
 
   /* WKND colors, fonts, and nav height (light-color = table stripe)
