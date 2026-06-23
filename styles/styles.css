@@ -13,7 +13,7 @@
 :root {
 
 
-  /* Panera colors, fonts, and nav height (light-color for the table striped variant)
+  /* Panera colors, fonts, and nav height (light-color = table stripe)
 
   --joes-button-primary-background-color: #e2eb76;
   --joes-button-primary-color: #274225;
@@ -58,7 +58,7 @@
 */
 
 
-  /* McDonalds colors, fonts, and nav height (light-color for the table striped variant) */
+  /* McDonalds colors, fonts, and nav height (light-color = table stripe) */
 
   --joes-button-primary-background-color: #f5bf44;
   --joes-button-primary-color: black;
@@ -72,7 +72,7 @@
   --joes-hero-text-color: white;
 
   --background-color: white;
-  --light-color: #f5dfac;
+  --light-color: #f4e6c5;
   --dark-color: #505050;
   --text-color: #131313;
   --link-color: #3b63fb;
@@ -102,7 +102,7 @@
 
 
 
-  /* WKND colors, fonts, and nav height 
+  /* WKND colors, fonts, and nav height (light-color = table stripe)
 
   --joes-button-primary-background-color: black;
   --joes-button-primary-color: white;
