@@ -15,6 +15,7 @@
   /* McDonalds colors, fonts, and nav height (light-color = table stripe)  */
 
   --joes-button-primary-background-color: #f5bf44;
+  --joes-button-primary-border-color: black;
   --joes-button-primary-color: black;
   --joes-button-primary-hover-color: #f7ce62;
   --joes-button-primary-disabled-color: var(--light-color);
@@ -275,7 +276,7 @@ button {
   display: inline-block;
   max-width: 100%;
   margin: 12px 0;
-  border: 2px solid transparent;
+  border: 2px solid var(--joes-button-primary-border-color);
   border-radius: 2.4em;
   padding: 0.5em 1.2em;
   font-family: var(--body-font-family);
