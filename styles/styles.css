@@ -12,51 +12,7 @@
 
 :root {
 
-
-  /* Panera colors, fonts, and nav height (light-color = table stripe) */
-
-  --joes-button-primary-background-color: #e2eb76;
-  --joes-button-primary-color: #274225;
-  --joes-button-primary-hover-color: #ccd56a;
-  --joes-button-primary-disabled-color: var(--light-color);
-  --joes-button-secondary-background-color: white;
-  --joes-button-secondary-border-color: white;
-  --joes-button-secondary-text-color: #274225;
-
-  --joes-section-highlight-color: #f5f3e7;
-  --joes-hero-text-color: white;
-
-  --background-color: white;
-
-  --light-color: #f5f3e7;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
-
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
- 
-  --body-font-size-m: 22px;
-  --body-font-size-s: 19px;
-  --body-font-size-xs: 17px;
-
-  --heading-font-size-xxl: 55px;
-  --heading-font-size-xl: 44px;
-  --heading-font-size-l: 34px;
-  --heading-font-size-m: 27px;
-  --heading-font-size-s: 24px;
-  --heading-font-size-xs: 22px;
-
-  --nav-height: 80px;
-  --breadcrumbs-height: 34px;
-  --header-height: var(--nav-height);
-
-
-}
-
-
-  /* McDonalds colors, fonts, and nav height (light-color = table stripe)
+  /* McDonalds colors, fonts, and nav height (light-color = table stripe)  */
 
   --joes-button-primary-background-color: #f5bf44;
   --joes-button-primary-color: black;
@@ -94,11 +50,7 @@
   --breadcrumbs-height: 34px;
   --header-height: var(--nav-height);
 
-
 }
-
- */
-
 
   /* WKND colors, fonts, and nav height (light-color = table stripe)
 
@@ -138,11 +90,50 @@
   --breadcrumbs-height: 34px;
   --header-height: var(--nav-height);
 
-
 }
-
 */
 
+  /* Panera colors, fonts, and nav height (light-color = table stripe) 
+
+  --joes-button-primary-background-color: #e2eb76;
+  --joes-button-primary-color: #274225;
+  --joes-button-primary-hover-color: #ccd56a;
+  --joes-button-primary-disabled-color: var(--light-color);
+  --joes-button-secondary-background-color: white;
+  --joes-button-secondary-border-color: white;
+  --joes-button-secondary-text-color: #274225;
+
+  --joes-section-highlight-color: #f5f3e7;
+  --joes-hero-text-color: white;
+
+  --background-color: white;
+
+  --light-color: #f5f3e7;
+  --dark-color: #505050;
+  --text-color: #131313;
+  --link-color: #3b63fb;
+  --link-hover-color: #1d3ecf;
+
+  --body-font-family: roboto, roboto-fallback, sans-serif;
+  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+ 
+  --body-font-size-m: 22px;
+  --body-font-size-s: 19px;
+  --body-font-size-xs: 17px;
+
+  --heading-font-size-xxl: 55px;
+  --heading-font-size-xl: 44px;
+  --heading-font-size-l: 34px;
+  --heading-font-size-m: 27px;
+  --heading-font-size-s: 24px;
+  --heading-font-size-xs: 22px;
+
+  --nav-height: 80px;
+  --breadcrumbs-height: 34px;
+  --header-height: var(--nav-height);
+
+}
+*/
 
 
 /* fallback fonts */
