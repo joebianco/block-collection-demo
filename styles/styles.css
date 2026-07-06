@@ -276,7 +276,7 @@ button {
   display: inline-block;
   max-width: 100%;
   margin: 12px 0;
-  border: 2px solid var(--joes-button-primary-border-color);
+  border: 1px solid var(--joes-button-primary-border-color);
   border-radius: 2.4em;
   padding: 0.5em 1.2em;
   font-family: var(--body-font-family);
@@ -312,7 +312,7 @@ button.secondary {
   background-color: var(--joes-button-secondary-background-color);
   
   /* border: 2px solid currentcolor; */
-  border: 2px solid var(--joes-button-secondary-border-color);
+  border: 1px solid var(--joes-button-secondary-border-color);
 
   /* color: var(--text-color); */
    color: var(--joes-button-secondary-text-color);
