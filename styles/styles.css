@@ -13,7 +13,45 @@
 :root {
 
 
-    /* WKND colors, fonts, and nav height (light-color = table stripe) */
+  /* Hersheyland colors, fonts, and nav height (light-color = table stripe) */
+
+  --joes-button-primary-background-color: #007bbd;
+  --joes-button-primary-color: white;
+  --joes-button-primary-hover-color: #488dc2;
+  --joes-button-primary-disabled-color: var(--light-color);
+  --joes-button-secondary-background-color: white;
+  --joes-button-secondary-border-color: #3f000b;
+  --joes-button-secondary-text-color: #007bbd;
+
+  --joes-section-highlight-color: lightgrey;
+  --joes-hero-text-color: white;
+
+  --background-color: white;
+  --light-color: #f8f8f8;
+  --dark-color: #505050;
+  --text-color: #3f000b;
+  --link-color: #3b63fb;
+  --link-hover-color: #1d3ecf;
+
+  --body-font-family: roboto, roboto-fallback, sans-serif;
+  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+ 
+  --body-font-size-m: 22px;
+  --body-font-size-s: 19px;
+  --body-font-size-xs: 17px;
+
+  --heading-font-size-xxl: 55px;
+  --heading-font-size-xl: 44px;
+  --heading-font-size-l: 34px;
+  --heading-font-size-m: 27px;
+  --heading-font-size-s: 24px;
+  --heading-font-size-xs: 22px;
+
+  --nav-height: 64px;
+  --breadcrumbs-height: 34px;
+  --header-height: var(--nav-height);
+
+    /* WKND colors, fonts, and nav height (light-color = table stripe) 
 
   --joes-button-primary-background-color: black;
   --joes-button-primary-color: white;
@@ -51,6 +89,7 @@
   --breadcrumbs-height: 34px;
   --header-height: var(--nav-height);
 
+  */
   /* McDonalds colors, fonts, and nav height (light-color = table stripe) 
 
   --joes-button-primary-background-color: #f5bf44;
