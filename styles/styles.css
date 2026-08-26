@@ -26,8 +26,15 @@
   --joes-section-highlight-color: lightgrey;
   --joes-hero-text-color: white;
 
-  --joe-section-background-color-reeses: #ec5f2a;
-  --joe-section-background-color-rolo: #55281e;
+  --hs-reese-button-background-color : #fcef50;
+  --hs-reese-button-text-color : #3e0d06;
+  --hs-reese-background-color : #ec5f2a;
+  --hs-reese-text-color : #39050c;
+
+  --hs-rolo-button-background-color: #b02727;
+  --hs-rolo-button-text-color: #ffffff;
+  --hs-rolo-background-color: #f2a85b;
+  --hs-rolo-text-color: #39050c;
 
   --background-color: white;
   --light-color: #f8f8f8;
@@ -409,9 +416,21 @@ main .section.highlight {
 }
 
 main .section.columns-container[data-hs-brand-theme="reeses"] .columns-wrapper {
-  background-color: var(--joe-section-background-color-reeses);
+  background-color: var(--hs-reese-background-color);
+  color: var(--hs-reese-text-color);
+}
+
+main .section.columns-container[data-hs-brand-theme="reeses"] .button-container .button {
+  background-color: var(--hs-reese-button-background-color);
+  color: var(--hs-reese-button-text-color);
 }
 
 main .section.columns-container[data-hs-brand-theme="rolo"] .columns-wrapper {
-  background-color: var(--joe-section-background-color-rolo);
+  background-color: var(--hs-rolo-background-color);
+  color: var(--hs-rolo-text-color);
+}
+
+main .section.columns-container[data-hs-brand-theme="rolo"] .button-container .button {
+  background-color: var(--hs-rolo-button-background-color);
+  color: var(--hs-rolo-button-text-color);
 }
