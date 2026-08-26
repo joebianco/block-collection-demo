@@ -25,11 +25,14 @@ export default function decorate(block) {
     const {
       hsBackgroundColor, hsTextColor, hsButtonBackgroundColor, hsButtonTextColor,
     } = section.dataset;
-    if (hsBackgroundColor) wrapper.style.backgroundColor = hsBackgroundColor;
+    // use the `background` shorthand rather than `background-color` since
+    // hsBackgroundColor may be a solid color or a gradient() function, and
+    // `background-color` silently rejects gradients
+    if (hsBackgroundColor) wrapper.style.background = hsBackgroundColor;
     if (hsTextColor) wrapper.style.color = hsTextColor;
     if (hsButtonBackgroundColor || hsButtonTextColor) {
       wrapper.querySelectorAll('.button-container .button').forEach((button) => {
-        if (hsButtonBackgroundColor) button.style.backgroundColor = hsButtonBackgroundColor;
+        if (hsButtonBackgroundColor) button.style.background = hsButtonBackgroundColor;
         if (hsButtonTextColor) button.style.color = hsButtonTextColor;
       });
     }
