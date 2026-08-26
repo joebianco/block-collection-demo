@@ -20,7 +20,7 @@
   --joes-button-primary-hover-color: #488dc2;
   --joes-button-primary-disabled-color: var(--light-color);
   --joes-button-secondary-background-color: white;
-  --joes-button-secondary-border-color: #3f000b;
+  --joes-button-secondary-border-color: white;
   --joes-button-secondary-text-color: #007bbd;
 
   --joes-section-highlight-color: lightgrey;
