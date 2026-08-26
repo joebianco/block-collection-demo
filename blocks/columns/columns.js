@@ -15,4 +15,25 @@ export default function decorate(block) {
       }
     });
   });
+
+  // explicit hs-background-color/hs-text-color attributes take precedence
+  // over the hs-brand-theme CSS, so apply them as inline styles which
+  // naturally win the cascade over the theme's attribute-selector rules
+  const section = block.closest('.section');
+  if (section) {
+    const {
+      hsBackgroundColor, hsTextColor, hsButtonBackgroundColor, hsButtonTextColor,
+    } = section.dataset;
+    // use the `background` shorthand rather than `background-color` since
+    // hsBackgroundColor may be a solid color or a gradient() function, and
+    // `background-color` silently rejects gradients
+    if (hsBackgroundColor) section.style.background = hsBackgroundColor;
+    if (hsTextColor) section.style.color = hsTextColor;
+    if (hsButtonBackgroundColor || hsButtonTextColor) {
+      section.querySelectorAll('.button-container .button').forEach((button) => {
+        if (hsButtonBackgroundColor) button.style.background = hsButtonBackgroundColor;
+        if (hsButtonTextColor) button.style.color = hsButtonTextColor;
+      });
+    }
+  }
 }

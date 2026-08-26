@@ -31,3 +31,23 @@
     order: unset;
   }
 }
+
+main .section.columns-container[data-hs-brand-theme="reeses"] {
+  background-color: var(--hs-reese-background-color);
+  color: var(--hs-reese-text-color);
+}
+
+main .section.columns-container[data-hs-brand-theme="reeses"] .button-container .button {
+  background-color: var(--hs-reese-button-background-color);
+  color: var(--hs-reese-button-text-color);
+}
+
+main .section.columns-container[data-hs-brand-theme="rolo"] {
+  background-color: var(--hs-rolo-background-color);
+  color: var(--hs-rolo-text-color);
+}
+
+main .section.columns-container[data-hs-brand-theme="rolo"] .button-container .button {
+  background-color: var(--hs-rolo-button-background-color);
+  color: var(--hs-rolo-button-text-color);
+}
