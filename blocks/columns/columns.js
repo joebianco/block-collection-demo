@@ -15,4 +15,23 @@ export default function decorate(block) {
       }
     });
   });
+
+  // explicit hs-background-color/hs-text-color attributes take precedence
+  // over the hs-brand-theme CSS, so apply them as inline styles which
+  // naturally win the cascade over the theme's attribute-selector rules
+  const section = block.closest('.section');
+  const wrapper = block.closest('.columns-wrapper');
+  if (section && wrapper) {
+    const {
+      hsBackgroundColor, hsTextColor, hsButtonBackgroundColor, hsButtonTextColor,
+    } = section.dataset;
+    if (hsBackgroundColor) wrapper.style.backgroundColor = hsBackgroundColor;
+    if (hsTextColor) wrapper.style.color = hsTextColor;
+    if (hsButtonBackgroundColor || hsButtonTextColor) {
+      wrapper.querySelectorAll('.button-container .button').forEach((button) => {
+        if (hsButtonBackgroundColor) button.style.backgroundColor = hsButtonBackgroundColor;
+        if (hsButtonTextColor) button.style.color = hsButtonTextColor;
+      });
+    }
+  }
 }
