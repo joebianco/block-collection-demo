@@ -26,6 +26,9 @@
   --joes-section-highlight-color: lightgrey;
   --joes-hero-text-color: white;
 
+  --joe-section-background-color-reeses: #ec5f2a;
+  --joe-section-background-color-rolo: #f2a85b;
+
   --background-color: white;
   --light-color: #f8f8f8;
   --dark-color: #505050;
@@ -403,4 +406,12 @@ main .section.highlight {
 
   margin: 0;
   padding: 40px 0;
+}
+
+main .section.columns-container[data-hs-brand-theme="reeses"] .columns-wrapper {
+  background-color: var(--joe-section-background-color-reeses);
+}
+
+main .section.columns-container[data-hs-brand-theme="rolo"] .columns-wrapper {
+  background-color: var(--joe-section-background-color-rolo);
 }
