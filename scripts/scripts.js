@@ -184,7 +184,11 @@ async function loadEager(doc) {
  * @param {Element} doc The container element
  */
 async function loadLazy(doc) {
-  await runExperimentationLazy(doc, experimentationConfig);
+  const { searchParams } = new URL(window.location.href);
+  // skip the experimentation overlay pill inside the DA.live preview panel
+  if (!searchParams.get('dapreview')) {
+    await runExperimentationLazy(doc, experimentationConfig);
+  }
 
   autolinkModals(doc);
 
