@@ -721,6 +721,10 @@ async function getExperimentConfig(pluginOptions, metadata, overrides) {
     config.selectedVariant = toClassName(forcedVariant);
   } else if (overrides.variant && variantNames.includes(overrides.variant)) {
     config.selectedVariant = toClassName(overrides.variant);
+  } else if (isDebugEnabled) {
+    // stay on control by default on preview/debug environments; authors can force
+    // a variant via the pill or the `experiment` query parameter override above
+    config.selectedVariant = 'control';
   } else {
     // eslint-disable-next-line import/extensions
     const { ued } = await import('./ued.js');
