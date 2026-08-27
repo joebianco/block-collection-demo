@@ -235,6 +235,19 @@ async function loadSidekick() {
   });
 }
 
+(async function loadDa() {
+  const { searchParams } = new URL(window.location.href);
+
+  /* eslint-disable import/no-unresolved */
+  if (searchParams.get('dapreview')) {
+    import('https://da.live/scripts/dapreview.js')
+      .then(({ default: daPreview }) => daPreview(loadPage));
+  }
+  if (searchParams.get('daexperiment')) {
+    import('https://da.live/nx/public/plugins/exp/exp.js');
+  }
+}());
+
 export async function loadPage() {
   await loadEager(document);
   await loadLazy(document);
