@@ -51,3 +51,79 @@ main .section.columns-container[data-hs-brand-theme="rolo"] .button-container .b
   background-color: var(--hs-rolo-button-background-color);
   color: var(--hs-rolo-button-text-color);
 }
+
+/* scary halloween style (section metadata: style: scary) */
+main .section.columns-container.scary {
+  position: relative;
+  overflow: hidden;
+  background: radial-gradient(ellipse at 50% -20%, #3a1250 0%, #150a29 45%, #060109 100%);
+  color: #e9dfce;
+  padding: 56px 0;
+}
+
+main .section.columns-container.scary::before {
+  content: '🦇      🕸️      🦇      🕷️';
+  position: absolute;
+  inset: 0;
+  top: 8px;
+  font-size: 22px;
+  letter-spacing: 8px;
+  text-align: center;
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+main .section.columns-container.scary h1,
+main .section.columns-container.scary h2,
+main .section.columns-container.scary h3,
+main .section.columns-container.scary h4 {
+  color: #ff7518;
+  text-shadow: 0 0 6px #ff7518cc, 0 0 16px #ff3d00aa;
+  letter-spacing: 0.5px;
+  animation: scary-flicker 4s infinite;
+}
+
+main .section.columns-container.scary p::before {
+  content: '🎃 ';
+}
+
+main .section.columns-container.scary .columns > div {
+  position: relative;
+  z-index: 1;
+  background: rgb(20 6 32 / 65%);
+  border: 1px solid #ff751880;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 24px rgb(255 117 24 / 20%);
+}
+
+main .section.columns-container.scary a {
+  color: #ff9d4d;
+}
+
+main .section.columns-container.scary .button-container .button,
+main .section.columns-container.scary a.button {
+  background-color: #ff5e13;
+  color: #150a1f;
+  border-color: #150a1f;
+}
+
+main .section.columns-container.scary .button-container .button:hover,
+main .section.columns-container.scary a.button:hover {
+  background-color: #ff3d00;
+  color: #fff;
+}
+
+@keyframes scary-flicker {
+  0%, 19%, 21%, 23%, 80%, 100% { opacity: 1; }
+  20%, 22%, 79% { opacity: 0.65; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  main .section.columns-container.scary h1,
+  main .section.columns-container.scary h2,
+  main .section.columns-container.scary h3,
+  main .section.columns-container.scary h4 {
+    animation: none;
+  }
+}
