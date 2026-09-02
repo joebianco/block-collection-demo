@@ -8,6 +8,13 @@
       "titleI18n": { "en": "Experimentation" },
       "environments": [ "dev", "preview" ],
       "event": "experimentation"
+    },
+    {
+      "id": "publish",
+      "excludePaths": [
+        "**/drafts/**",
+        "/drafts/**"
+      ]
     }
   ]
 }
