@@ -319,7 +319,8 @@ a:hover {
 
 /* buttons */
 a.button:any-link,
-button {
+button,
+div.ProseMirror p a {
   box-sizing: border-box;
   display: inline-block;
   max-width: 100%;
