@@ -13,7 +13,7 @@
 :root {
 
 
-  /* Hersheyland colors, fonts, and nav height (light-color = table stripe) */
+  /* Hersheyland colors, fonts, and nav height (light-color = table stripe) 
 
   --joes-button-primary-background-color: #007bbd;
   --joes-button-primary-color: white;
@@ -25,7 +25,7 @@
 
   --joes-section-highlight-color: lightgrey;
   --joes-hero-text-color: white;
-
+*/
   --hs-reese-button-background-color : #fcef50;
   --hs-reese-button-text-color : #3e0d06;
   --hs-reese-background-color : #ec5f2a;
@@ -35,7 +35,7 @@
   --hs-rolo-button-text-color: #ffffff;
   --hs-rolo-background-color: #f2a85b;
   --hs-rolo-text-color: #39050c;
-
+/*
   --background-color: white;
   --light-color: #f8f8f8;
   --dark-color: #505050;
@@ -60,6 +60,8 @@
   --nav-height: 64px;
   --breadcrumbs-height: 34px;
   --header-height: var(--nav-height);
+
+  
 
     /* WKND colors, fonts, and nav height (light-color = table stripe) 
 
@@ -141,7 +143,7 @@
 
  */
 
-  /* Panera colors, fonts, and nav height (light-color = table stripe) 
+  /* Panera colors, fonts, and nav height (light-color = table stripe) */
 
   --joes-button-primary-background-color: #e2eb76;
   --joes-button-primary-color: #274225;
@@ -180,7 +182,7 @@
   --breadcrumbs-height: 34px;
   --header-height: var(--nav-height);
 
-*/
+
 
 }
 
