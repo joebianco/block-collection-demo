@@ -55,7 +55,7 @@
 
       /* Lamb Weston colors, fonts, and nav height (light-color = table stripe) */
 
-  --joes-button-primary-background-color: black;
+  --joes-button-primary-background-color: #e25204;
   --joes-button-primary-color: white;
   --joes-button-primary-hover-color: grey;
   --joes-button-primary-disabled-color: var(--light-color);
@@ -63,7 +63,7 @@
   --joes-button-secondary-border-color: grey;
   --joes-button-secondary-text-color: grey;
 
-  --joes-section-highlight-color: lightgrey;
+  --joes-section-highlight-color: #003855;
   --joes-hero-text-color: white;
 
   --background-color: white;
