@@ -13,9 +13,9 @@
 :root {
 
 
-/* WKND colors, fonts, and nav height (light-color = table stripe) 
+/* WKND colors, fonts, and nav height (light-color = table stripe) */
 
-  --joes-button-primary-background-color: #e35204;
+  --joes-button-primary-background-color: black;
   --joes-button-primary-color: white;
   --joes-button-primary-hover-color: grey;
   --joes-button-primary-disabled-color: var(--light-color);
@@ -24,7 +24,7 @@
   --joes-button-secondary-text-color: grey;
   --joes-button-border-radius: 2.4em;
 
-  --joes-section-highlight-color: #003855;
+  --joes-section-highlight-color: f8f8f8;
   --joes-hero-text-color: white;
 
   --background-color: white;
@@ -52,9 +52,9 @@
   --breadcrumbs-height: 34px;
   --header-height: var(--nav-height);
 
-*/
 
-      /* Lamb Weston colors, fonts, and nav height (light-color = table stripe) */
+
+      /* Lamb Weston colors, fonts, and nav height (light-color = table stripe) 
 
   --joes-button-primary-background-color: #e25204;
   --joes-button-primary-color: white;
@@ -93,6 +93,7 @@
   --breadcrumbs-height: 34px;
   --header-height: var(--nav-height);
 
+*/
       
   /* Hersheyland colors, fonts, and nav height (light-color = table stripe) 
 
