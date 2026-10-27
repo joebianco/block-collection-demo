@@ -13,7 +13,46 @@
 :root {
 
 
-  /* WKND colors, fonts, and nav height (light-color = table stripe) */
+  /* Hydro Flask colors, fonts, and nav height (light-color = table stripe) */
+
+  --joes-button-primary-background-color: black;
+  --joes-button-primary-color: white;
+  --joes-button-primary-hover-color: #333;
+  --joes-button-primary-disabled-color: var(--light-color);
+  --joes-button-secondary-background-color: white;
+  --joes-button-secondary-border-color: #000;
+  --joes-button-secondary-text-color: #000;
+  --joes-button-border-radius: 12px;
+
+  --joes-section-highlight-color: #efece7;
+  --joes-hero-text-color: white;
+
+  --background-color: white;
+  --light-color: #efece7;
+  --dark-color: #6d6d6d;
+  --text-color: #000;
+  --link-color: #000;
+  --link-hover-color: #525252;
+
+  --body-font-family: 'Helvetica Neue', helvetica, sans-serif;
+  --heading-font-family: 'Helvetica Neue', helvetica, sans-serif;
+ 
+  --body-font-size-m: 16px;
+  --body-font-size-s: 14px;
+  --body-font-size-xs: 12px;
+
+  --heading-font-size-xxl: 48px;
+  --heading-font-size-xl: 32px;
+  --heading-font-size-l: 28px;
+  --heading-font-size-m: 24px;
+  --heading-font-size-s: 20px;
+  --heading-font-size-xs: 18px;
+
+  --nav-height: 60px;
+  --breadcrumbs-height: 34px;
+  --header-height: var(--nav-height);
+
+  /* WKND colors, fonts, and nav height (light-color = table stripe) 
 
   --joes-button-primary-background-color: black;
   --joes-button-primary-color: white;
@@ -52,6 +91,7 @@
   --breadcrumbs-height: 34px;
   --header-height: var(--nav-height);
 
+  */
 
       /* Lamb Weston colors, fonts, and nav height (light-color = table stripe) 
 
