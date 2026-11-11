@@ -15,20 +15,20 @@
 
   /* Hydro Flask colors, fonts, and nav height (light-color = table stripe) */
 
-  --joes-button-primary-background-color: black;
-  --joes-button-primary-color: white;
+  --joes-button-primary-background-color: #387f9a;
+  --joes-button-primary-color: white ;
   --joes-button-primary-hover-color: #333;
   --joes-button-primary-disabled-color: var(--light-color);
-  --joes-button-secondary-background-color: white;
-  --joes-button-secondary-border-color: #000;
-  --joes-button-secondary-text-color: #000;
+  --joes-button-secondary-background-color: #387f9a;
+  --joes-button-secondary-border-color: white;
+  --joes-button-secondary-text-color: white;
   --joes-button-border-radius: 12px;
 
-  --joes-section-highlight-color: #efece7;
+  --joes-section-highlight-color: #f2f5f8;
   --joes-hero-text-color: white;
 
   --background-color: white;
-  --light-color: #efece7;
+  --light-color: #f2f5f8;
   --dark-color: #6d6d6d;
   --text-color: #000;
   --link-color: #000;
